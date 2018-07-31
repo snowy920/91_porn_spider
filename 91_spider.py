@@ -3,7 +3,7 @@ import os,re,time,random
 def download_mp4(url,dir):
     headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36Name','Referer':'http://91porn.com'}
     req=requests.get(url=url)
-    filename=str(dir)+'/1.mp4'
+    filename=str(dir)+'/'+str(dir)+'.mp4'
     with open(filename,'wb') as f:
         f.write(req.content)
 def download_img(url,dir):
