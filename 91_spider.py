@@ -1,3 +1,22 @@
+Skip to content
+￼
+Search or jump to…
+￼
+Pull requests
+Issues
+Marketplace
+Explore
+￼￼ Sign out
+ Watch 0
+￼ Star 0  Fork 72 snowy920/91_porn_spider
+forked from eqblog/91_porn_spider
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+￼Branch: master Find file Copy path 91_porn_spider/91_spider.py
+2535f0a  3 minutes ago
+￼ snowy920 Update 91_spider.py
+2 contributors￼￼
+RawBlameHistory  ￼  ￼
+49 lines (48 sloc)  2.3 KB
 import requests
 import os,re,time,random
 def download_mp4(url,dir):
@@ -46,3 +65,16 @@ while flag<=100:
             time.sleep(2)
     flag=flag+1
     print('此页已下载完成，下一页是'+str(flag))
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
