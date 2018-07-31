@@ -1,5 +1,5 @@
-# 91_porn_spider使用注意事项：
-`本脚本仅支持python3`
+# 简介：
+基于eqblog的脚本，做了一些修改：仅下载视频mp4文件，自动更名为标题名称。本脚本仅支持python3。
 # python所需库：
 ```bash
 pip3 install requests
