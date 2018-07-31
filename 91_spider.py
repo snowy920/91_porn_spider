@@ -40,7 +40,6 @@ while flag<=100:
             pass
         if os.path.exists(str(t))==False:
             try:
-                os.makedirs(str(t))
                 print('开始下载:'+str(t))
                 download_img(str(img_url[0]),str(t))
                 download_mp4(str(video_url[0]),str(t))
